@@ -1,0 +1,227 @@
+.main_header {
+  background: url("https://s3.amazonaws.com/realtor-video/fireplace-short-loop-low.gif") no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:500px;
+}
+
+.search-area{
+  position: absolute;
+  width: 100%;
+  bottom: 100px;
+}
+.search-box .form-control{
+  padding: 0.75rem 1rem;
+}
+.search-box .sub-area fieldset{
+  line-height: 29px;
+}
+.search-box .sub-area .form-control {
+  padding: 5px 5px;
+}
+.search-box .form-group{
+  height: 25px;
+}
+.cover {
+  object-fit: cover;
+  width: 100%;
+}
+
+.fixed-top{
+  position: relative;
+}
+.header-navbar {
+  min-height: 0px;
+}
+html body.fixed-navbar {
+  padding-top: 0px;
+}
+.header-navbar .navbar-header{
+  padding: 0px;
+}
+
+.main_header .search-box{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.addr-area{
+    width: 350px;
+    float: left;
+}
+
+
+
+
+/*post area*/
+.post-area{
+    padding: 10px;
+}
+.img-area{
+    color: #fff;
+}
+.img-area img.cover{
+    height: 320px;
+
+}
+.agency-area .sub-1{
+    position: relative;
+    margin-left: 45px;
+    padding-left: 25px;
+    padding-right: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    border:2px solid #e2e2e2;
+}
+.agency-area .img-agency{
+    position: absolute;
+    left: -30px;
+    top: -5px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+
+.sub-tl{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    right: 50px;
+}
+.sub-tr{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.sub-tr a{
+    display: inline-block;
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+.sub-tr .sprite-heart-line{
+    width: 36px;
+    height: 36px;
+    margin-left: -19px;
+    margin-top: -16px;
+    background-size: 110px 110px;
+}
+.sub-tr .img-heart{
+    background-image: url(../images/hearts_Sprite_new.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.sub-bl{
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+.sub-bl h4{
+    text-transform: uppercase;
+    margin:0px;
+}
+.icon-for-sale{margin-right: 4px;}
+.icon-for-sale:before{
+    border: 2px solid #fff;
+    font-weight: 400!important;
+    font-variant: normal!important;
+    text-transform: none!important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    background: #fc384a;
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    width: 10px;
+}
+.photo-card-price{
+    font-size : 20px;
+}
+.sub-bl p{
+    margin:0px;
+}
+
+
+
+/****************************** user detail page *****************************/
+.contact-form .form-group{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/*******************************************************************************************************************/
+.list_carousel {
+  background-color: #fff;
+  margin: 0px;
+  width: 100%;
+  overflow:hidden;
+  position:relative;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+.list_carousel li {
+  font-size: 40px;
+  color: #999;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 0px solid #efefef;
+  width: 255px;
+  height: 230px;
+  padding: 0;
+  margin: 0px 20px;
+  display: block;
+  float: left;
+  line-height:10px ;
+  text-align:left;
+}
+
+.list_carousel.responsive {
+  width: auto;
+  margin-left: 0;
+}
+.line-height-40{line-height: 40px;}
+.sel-home{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0px 10px;
+}
+
+
+@media (max-width: 700px) {
+    .search-area{
+        bottom: 30px;
+    }
+    .main_header .search-box{
+        width: 100%;
+    }
+    .addr-area{
+        width: calc(100% - 110px);
+        float: left;
+    }
+}
+
+@media (max-width: 545px) {
+    .nav-item.d-md-none img,
+    .nav-item.d-md-none button{
+        float: left;
+    }
+}

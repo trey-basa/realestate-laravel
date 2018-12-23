@@ -1,0 +1,136 @@
+#searchContainer {
+  background: url("https://s3.amazonaws.com/realtor-video/fireplace-short-loop-low.gif") no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:400px;
+}
+#schools span{
+  padding:13px;
+}
+#specialFeature span{
+  padding:13px;
+}
+.categoryName{
+  padding-top:5px;
+}
+#loading {
+  background: url('../images/spinner.gif') no-repeat center center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000000a1;
+  z-index: 1;
+  display: none;
+}
+
+
+
+.search-box .form-control{
+  padding: 1px 3px;
+}
+.search-box .form-group{
+  height: 25px;
+}
+.grid-hover figure img {
+  min-height: auto;
+  max-width: none;
+}
+.cover {
+  object-fit: cover;
+  width: 100%;
+}
+.img-height-265{
+  height:265px;
+}
+.grid-hover figure{
+  background-color: #00000000;
+}
+.grid-hover figure figcaption{
+  text-transform: none;
+  padding: 0px;
+}
+figure.effect-marley h2 {
+  right: 0px;
+  left: 0px;
+  padding: 10px 5px;
+  top: 0px;
+  word-spacing: 0px;
+  background-color: #000000a1;
+  transform: translate3d(0, 0px, 0);
+}
+figure.effect-marley .font-size-small.font-weight-light{
+  margin: 0px;
+  display: block;
+}
+figure.effect-marley p {
+  background-color: #000000a1;
+  right: 0px;
+  left: 0px;
+  padding: 10px 5px;
+  text-align: left;
+  bottom: 0px;
+  line-height: 1;
+  letter-spacing: 0px;
+  transform: none;
+  opacity: 1;
+}
+figure.effect-marley h2::after{
+  background: #fff0;
+}
+
+.carousel-item img{
+  height:350px;
+}
+
+
+@media (max-width: 1200px) {
+  .grid-hover>.col-md-4{
+    max-width : 50%;
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: 992px) {
+  .carousel-item img{
+    height:240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-hover>.col-md-4{
+    max-width : 100%;
+    flex: 0 0 100%;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-item img{
+    height:340px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-light .navbar-nav li:first-child,
+  .navbar-light .navbar-nav li:last-child{
+    width: 50%;
+  }
+  .navbar-light .navbar-nav li:last-child{text-align: right;}
+}
+
+@media (max-width: 480px) {
+  .header-navbar{min-height: 50px;}
+  html body.fixed-navbar {padding-top: 50px;}
+  .card-body.my-gallery{padding: 0px;}
+  .grid-hover figure{min-width: 230px;}
+  .carousel-item img{
+    height:280px;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-hover figure h2 span{font-size: 16px}
+  .carousel-item img{height:220px;}
+}
+
+@media (max-width: 320px) {
+  .carousel-item img{height:180px;}
+}
